@@ -2,7 +2,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-
 # @app.get("/items")
 # def root(skip: int = 10, limit: int = 20):
 #     return {"skip": skip, "limit": limit}
